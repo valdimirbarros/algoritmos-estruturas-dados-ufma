@@ -6,7 +6,6 @@ frente, sem utilizar reverse().
 
 def reveterItensLista(L):   
     for x in range(1, len(L) + 1):
-        #eu tenho que fazer algo como ... L[-1] depois L[-2] até a quantidade de indices...
         print(L[-x])
         
     
